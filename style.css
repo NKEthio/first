@@ -1,0 +1,52 @@
+body {
+    background-color: bisque;
+    background-size: cover;
+        
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #9abe18e3;
+    transition: all 0.6s;
+}
+li {
+    margin: auto 0;
+    padding: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+}
+
+.no-push, .push {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #1d7ccae3;
+    margin-right: 10px;
+       
+}
+
+.push {
+    margin-left: auto;
+    
+}
+
+.push:hover, .no-push:hover {
+    transform: scale(1.1); 
+}
+
+.success {
+    color: rgb(0, 0, 0);
+    border: 5px dashed;
+}
+
+.foot {
+    color: red;
+    text-align: center;
+}
+
